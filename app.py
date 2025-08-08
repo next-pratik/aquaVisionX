@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="💧"
 )
 
-# --- Custom CSS for Navy Theme and Chatbot Icon ---
+# --- Custom CSS for Theme, Icons, and Hiding GitHub Icon ---
 st.markdown("""
     <style>
         /* Navy Blue Theme */
@@ -23,6 +23,11 @@ st.markdown("""
         }
         .st-bb, .st-cg, .st-df, .st-e3 {
             color: #002B5B;
+        }
+
+        /* Hide GitHub Icon */
+        #GithubIcon {
+            visibility: hidden;
         }
 
         /* Floating Chatbot Icon */
